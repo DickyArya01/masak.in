@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Masakin.NoActionBar" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowSplashScreenBackground">@color/orange</item>
+
+        <item name="colorPrimary">@color/orange</item>
+    </style>
+</resources>
