@@ -10,5 +10,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="orange">#FFF96114</color>
     <color name="white_off">#FFF3F3F3</color>
+    <color name="white_off_semidark">#FFECECEC</color>
     <color name="white_off_dark">#FF9A9FA9</color>
+
 </resources>
