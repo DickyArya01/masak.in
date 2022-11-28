@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">masak.in</string>
+    <string name="toolbar_title">Toolbar</string>
+    <string name="search_food_hint">Search Foods</string>
 </resources>

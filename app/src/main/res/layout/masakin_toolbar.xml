@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_gravity="center"
+    app:contentInsetStart="0dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:paddingHorizontal="16dp">
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="@string/toolbar_title"
+            android:fontFamily="@font/poppins_semibold"
+            android:paddingTop="16dp"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_text"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:hint="@string/search_food_hint"
+            android:textColorHint="@color/white_off_dark"
+            android:paddingVertical="16dp"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:paddingStart="8dp"
+            android:drawablePadding="16dp"
+            android:drawableStart="@drawable/search_icon"/>
+
+    </LinearLayout>
+
+
+
+</androidx.appcompat.widget.Toolbar>
