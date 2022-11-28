@@ -2,4 +2,6 @@
     <string name="app_name">masak.in</string>
     <string name="toolbar_title">Toolbar</string>
     <string name="search_food_hint">Search Foods</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
