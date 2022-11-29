@@ -5,4 +5,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="banner_image">banner image</string>
+    <string name="akar_icon_location">akar icon location</string>
+    <string name="send_to">Send to</string>
+    <string name="address_temp">Kecamatan, Kabupaten</string>
 </resources>
