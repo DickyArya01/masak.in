@@ -26,7 +26,7 @@ class HomeActivity : AppCompatActivity() {
         setContentView(view)
 
 
-        setuptoolbar(homeText)
+        setupToolbar(homeText)
 
         homeFragment = HomeFragment()
 
@@ -42,7 +42,7 @@ class HomeActivity : AppCompatActivity() {
         fragmentTransaction.commit()
     }
 
-    private fun setuptoolbar(title: String){
+    private fun setupToolbar(title: String){
         mToolbar = findViewById(R.id.home_toolbar)
         tvToolbarTitle = findViewById(R.id.toolbar_title)
 
