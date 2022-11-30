@@ -7,17 +7,26 @@
     android:background="@color/white_off_semidark"
     tools:context=".home.HomeFragment">
 
-    <include
-        android:id="@+id/sliderBanner"
-        layout="@layout/component_image_slider"
+    <ScrollView
+        android:id="@+id/svHomeFragment"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:paddingBottom="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/llScrollViewHomeFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <include
+                android:id="@+id/sliderBanner"
+                layout="@layout/component_image_slider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:paddingBottom="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
