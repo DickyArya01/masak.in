@@ -14,8 +14,9 @@
         <LinearLayout
             android:id="@+id/llScrollViewHomeFragment"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:orientation="vertical">
+
             <include
                 android:id="@+id/sliderBanner"
                 layout="@layout/component_image_slider"
@@ -23,10 +24,19 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
                 android:paddingBottom="16dp"
+                android:layout_marginBottom="16dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
+            <include
+                android:id="@+id/rcCategorySection"
+                layout="@layout/component_food_base_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
         </LinearLayout>
+
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

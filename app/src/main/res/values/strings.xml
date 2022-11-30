@@ -8,4 +8,7 @@
     <string name="akar_icon_location">akar icon location</string>
     <string name="send_to">Send to</string>
     <string name="address_temp">Kecamatan, Kabupaten</string>
+    <string name="circle_category_container">Circle Category Container</string>
+    <string name="icon_category">icon category</string>
+    <string name="category">Category</string>
 </resources>
