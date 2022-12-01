@@ -4,11 +4,11 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.dickyarya.masakin.databinding.ItemSliderBinding
+import com.dickyarya.masakin.databinding.ComponentItemSliderBinding
 import com.dickyarya.masakin.model.data.ImageData
 
 class ImageSliderAdapter(private var listData: List<ImageData>): RecyclerView.Adapter<ImageSliderAdapter.ViewHolder>() {
-    class ViewHolder (itemView: ItemSliderBinding): RecyclerView.ViewHolder(itemView.root){
+    class ViewHolder (itemView: ComponentItemSliderBinding): RecyclerView.ViewHolder(itemView.root){
         private val binding = itemView
 
         fun bind(data: ImageData){
@@ -21,7 +21,7 @@ class ImageSliderAdapter(private var listData: List<ImageData>): RecyclerView.Ad
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val itemView = ItemSliderBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        val itemView = ComponentItemSliderBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return ViewHolder(itemView)
     }
 
