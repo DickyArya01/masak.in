@@ -24,7 +24,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
                 android:paddingBottom="16dp"
-                android:layout_marginBottom="16dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -33,7 +32,8 @@
                 android:id="@+id/rcCategorySection"
                 layout="@layout/component_food_base_category"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"/>
 
         </LinearLayout>
 

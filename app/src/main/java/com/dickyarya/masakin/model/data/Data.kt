@@ -1,6 +1,6 @@
 package com.dickyarya.masakin.model.data
 
-import android.graphics.drawable.AdaptiveIconDrawable
+import com.dickyarya.masakin.R
 
 //Image Data
 data class ImageData(
@@ -15,13 +15,14 @@ val listImageData = arrayListOf<ImageData>(
 
 //Category Data
 data class CategoryData(
-    val categoryName: String
+    val categoryName: String,
+    val categoryIconImage: Int
 )
 
 val listCategoryData = arrayListOf<CategoryData>(
-    CategoryData("Meat"),
-    CategoryData("Vegan"),
-    CategoryData("Cake"),
-    CategoryData("Ice cream"),
-    CategoryData("Cookies"),
+    CategoryData("Meat", R.drawable.category_meat),
+    CategoryData("Vegan", R.drawable.category_vegetable),
+    CategoryData("Cake", R.drawable.category_cake),
+    CategoryData("Float", R.drawable.category_float),
+    CategoryData("Cookies", R.drawable.category_cookies),
 )

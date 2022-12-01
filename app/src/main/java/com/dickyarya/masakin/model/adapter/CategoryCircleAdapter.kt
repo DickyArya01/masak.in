@@ -14,6 +14,10 @@ class CategoryCircleAdapter(private val listData: List<CategoryData>): RecyclerV
         fun bind(data: CategoryData){
             with(binding){
                 tvCategory.text = data.categoryName
+                Glide.with(itemView)
+                    .asDrawable()
+                    .load(data.categoryIconImage)
+                    .into(ivCategoryIcon)
             }
         }
     }
